@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this paper, please cite it as below."
+type: generic
+title: "Expanding the risk financing toolkit in the Dutch Caribbean: sovereign and non-sovereign risk transfer under the Kingdom of the Netherlands' financial-supervision architecture"
+abstract: "Central banks operating fixed exchange-rate pegs in the Dutch Caribbean hold foreign reserves above international adequacy levels while their governments engage only marginally with the disaster risk financing toolkit that has matured over the past fifteen years. Reserves are monetary assets that cannot themselves buy the fiscal instruments; the link is indirect, through the precautionary motive. This paper reads the toolkit as a risk-layering stack and shows that for the Dutch Caribbean the middle (contingent credit) and upper-market (catastrophe-bond) layers are foreclosed by non-borrowing-member status under the Kingdom's financial-supervision architecture, while the reachable layers (parametric insurance and self-financed reserve funds) are under-used. Two live cases, the Sint Maarten Disaster Reserve Fund and the Aruba public-private-partnership reclassification, share one off-balance-sheet instinct with different debt consequences. The commitment-problem framing is developed two-sidedly, and the paper draws out policy implications for the finance ministries, the central banks, and the Kingdom."
+authors:
+  - family-names: "de Kort"
+    given-names: "Rendell"
+    orcid: "https://orcid.org/0009-0006-5402-0500"
+    email: "rendell@c-economics.com"
+    affiliation: "Cornerstone Economics; Vrije Universiteit Amsterdam"
+date-released: "2026-07-01"
+version: "0.3.0"
+doi: "TO_BE_ASSIGNED_ON_ZENODO_RELEASE"
+identifiers:
+  - description: "Concept DOI (always resolves to latest version) — fill after first Zenodo release"
+    type: doi
+    value: "TO_BE_ASSIGNED"
+  - description: "Version DOI for v0.3.0 — fill after Zenodo release"
+    type: doi
+    value: "TO_BE_ASSIGNED"
+keywords:
+  - reserve adequacy
+  - disaster risk financing
+  - parametric insurance
+  - fixed exchange-rate regime
+  - Rijkswet financieel toezicht
+  - small island developing states
+  - Caribbean
+  - central bank mandate
+  - adaptive capacity
+license: CC-BY-4.0
+repository-code: "https://github.com/cornerstone-economics/wp-2026-02-reserve-adequacy"
+url: "https://papers.c-economics.com"

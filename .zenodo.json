@@ -1,0 +1,29 @@
+{
+  "title": "Expanding the risk financing toolkit in the Dutch Caribbean: sovereign and non-sovereign risk transfer under the Kingdom of the Netherlands' financial-supervision architecture",
+  "description": "Second Cornerstone Economics Working Paper. Fixed-peg central banks in the Dutch Caribbean hold foreign reserves above adequacy while their governments engage only marginally with the disaster risk financing toolkit. The paper reads the toolkit as a risk-layering stack, shows that the contingent-credit and catastrophe-bond layers are foreclosed for the Dutch Caribbean by non-borrowing-member status under the Kingdom's financial-supervision architecture, and that the reachable layers (parametric insurance, self-financed reserve funds) are under-used. It reads the Sint Maarten Disaster Reserve Fund and the Aruba public-private-partnership reclassification as one off-balance-sheet instinct with different debt consequences, develops the commitment-problem framing two-sidedly, and draws out policy implications for the finance ministries, the central banks, and the Kingdom. Version 0.3.0 working paper.",
+  "creators": [
+    {
+      "name": "de Kort, Rendell",
+      "affiliation": "Cornerstone Economics; Vrije Universiteit Amsterdam",
+      "orcid": "0009-0006-5402-0500"
+    }
+  ],
+  "communities": [
+    {"identifier": "c-economics"}
+  ],
+  "keywords": [
+    "reserve adequacy",
+    "disaster risk financing",
+    "parametric insurance",
+    "fixed exchange-rate regime",
+    "Rijkswet financieel toezicht",
+    "small island developing states",
+    "Caribbean",
+    "central bank mandate",
+    "adaptive capacity"
+  ],
+  "license": "cc-by-4.0",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "access_right": "open"
+}
