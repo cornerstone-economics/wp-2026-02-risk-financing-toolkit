@@ -1,6 +1,6 @@
 ---
 title: "Expanding the risk financing toolkit in the Dutch Caribbean"
-subtitle: "Sovereign and non-sovereign risk transfer under the Kingdom of the Netherlands' financial-supervision architecture"
+subtitle: "Sovereign and non-sovereign risk transfer under the Kingdom's financial-supervision architecture"
 author:
   - name: Rendell de Kort
     orcid: 0009-0006-5402-0500
@@ -74,21 +74,11 @@ jel-codes:
 ce-paper-number: "WP-2026-02"
 ce-version: "0.3.0-draft"
 bibliography: references.bib
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    number-sections: false
-    embed-resources: true
-    theme: cosmo
-execute:
-  echo: false
-  warning: false
-  message: false
+csl: chicago-author-date.csl
+doi: 10.5281/zenodo.21111149
 ---
 
-::: {.callout-note}
-## In brief
+::: {.callout-note title="In brief"}
 
 The central banks of the Dutch Caribbean hold more foreign reserves than they need to defend their currency pegs, while their governments buy almost none of the modern instruments that finance disaster recovery more cheaply. Part of the gap is structural. As autonomous countries within the Kingdom rather than sovereign states, Aruba, Curacao and Sint Maarten cannot tap the pre-agreed emergency credit lines that their independent neighbours use, and they cannot issue catastrophe bonds. Part of the gap is a choice. The layers they can reach, parametric insurance and a self-financed reserve fund, they have barely used, while the Eastern Caribbean, Barbados and the Bahamas have built them out.
 

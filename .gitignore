@@ -26,3 +26,5 @@ paper_files/
 Thumbs.db
 .vscode/
 .idea/
+
+/.quarto/

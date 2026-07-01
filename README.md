@@ -5,7 +5,7 @@
 **Identifier:** WP-2026-02.
 **License:** text CC-BY 4.0, code MIT.
 
-Subtitle: *Sovereign and non-sovereign risk transfer under the Kingdom of the Netherlands' financial-supervision architecture.*
+Subtitle: *Sovereign and non-sovereign risk transfer under the Kingdom's financial-supervision architecture.*
 
 ## In brief
 
@@ -13,7 +13,7 @@ The central banks of the Dutch Caribbean hold more foreign reserves than they ne
 
 ## What is in this repository
 
-`paper.qmd` is the master manuscript and `references.bib` holds the citations. `figures/` holds the truncated-toolkit figure and the R script that builds it; the reserve-adequacy chart is generated inline from the manuscript. `abstract-cbtt-2026.md` is the extended abstract prepared for the Central Bank of Trinidad and Tobago Research Review Seminar 2026.
+`paper.qmd` is the master manuscript and `references.bib` holds the citations. `figures/` holds the truncated-toolkit figure and the R script that builds it; the reserve-adequacy chart is generated inline from the manuscript. `_quarto.yml` drives the camera-ready PDF and the web HTML, built and attached to each release by the CI workflow.
 
 ## Build
 
