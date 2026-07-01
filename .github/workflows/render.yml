@@ -42,6 +42,10 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
         if: hashFiles('renv.lock') != ''
 
+      - name: Install R packages
+        if: hashFiles('renv.lock') == ''
+        run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "ggplot2"))'
+
       - name: Install Lato font
         run: |
           sudo apt-get update
