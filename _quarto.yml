@@ -92,17 +92,17 @@ format:
             {\Large\color{ce-blue}\textbf{WP-2026-02}}
             \end{minipage}
             \end{flushleft}
-            \vspace{2cm}\par
+            \vspace{1.3cm}\par
             \noindent{\color{ce-blue}\rule{\linewidth}{1.2pt}}\par
-            \vspace{1.5cm}\par
+            \vspace{0.9cm}\par
             \noindent{\fontsize{23pt}{27pt}\selectfont\bfseries\color{ce-near-black}Expanding the risk financing toolkit in the Dutch Caribbean}\par
             \vspace{0.6em}\par
             \noindent{\fontsize{15pt}{19pt}\selectfont\color{ce-blue}Sovereign and non-sovereign risk transfer under the Kingdom's financial-supervision architecture}\par
-            \vspace{2.5cm}\par
+            \vspace{1.5cm}\par
             \noindent{\large\bfseries\color{ce-near-black}Rendell de Kort}\\[0.3em]
             {\color{ce-near-black}Cornerstone Economics \,$\cdot$\, Vrije Universiteit Amsterdam}\\[0.2em]
             {\small\color{ce-near-black}ORCID: \href{https://orcid.org/0009-0006-5402-0500}{0009-0006-5402-0500} \,$\cdot$\, \href{mailto:rendell@c-economics.com}{rendell@c-economics.com}}\par
-            \vspace{1.2cm}\par
+            \vspace{0.7cm}\par
             \noindent{\small\color{ce-near-black}\textbf{July 2026} \,$\cdot$\, Version 0.3 \,$\cdot$\, DOI: 10.5281/zenodo.21111149}\par
             \vspace{0.4em}\par
             \noindent{\small\color{ce-near-black}\textbf{JEL codes:} E58, F33, Q54, O54}\par
@@ -115,7 +115,7 @@ format:
             \vspace{0.2em}\par
             \noindent{\footnotesize\color{ce-near-black}Cornerstone Economics publishes empirical research on how small economies build, adapt, and sometimes get trapped by the institutions they inherit. Caribbean and small-state cases are treated as evidence for general claims rather than as local-interest footnotes. Working papers, reproducible data, open licenses.}\par
             \vspace{0.6em}\par
-            \noindent{\footnotesize\color{ce-near-black}\textbf{Suggested citation:} de Kort, R. (2026). \textit{Expanding the risk financing toolkit in the Dutch Caribbean: sovereign and non-sovereign risk transfer under the Kingdom's financial-supervision architecture}. Cornerstone Economics Working Paper WP-2026-02. \href{https://doi.org/10.5281/zenodo.21111149}{doi.org/10.5281/zenodo.21111149}}\par
+            \noindent{\footnotesize\color{ce-near-black}\textbf{Suggested citation:} de Kort, R. (2026). \textit{Expanding the risk financing toolkit in the Dutch Caribbean}. Cornerstone Economics Working Paper WP-2026-02. \href{https://doi.org/10.5281/zenodo.21111149}{doi.org/10.5281/zenodo.21111149}}\par
             \vspace{0.4em}\par
             \noindent{\footnotesize\color{ce-near-black}License: CC-BY 4.0 \,$\cdot$\, \href{https://papers.c-economics.com}{papers.c-economics.com} \,$\cdot$\, \href{https://github.com/cornerstone-economics/wp-2026-02-risk-financing-toolkit}{github.com/cornerstone-economics/wp-2026-02-risk-financing-toolkit}}\par
             \clearpage
