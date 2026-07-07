@@ -6,7 +6,7 @@ library(ggplot2)
 blue  <- "#44759e"; orange <- "#f38439"; beige <- "#dee3c8"
 green <- "#749c4c"; grey   <- "#605b54"
 
-outdir <- "C:/Users/Rendell CE/Documents/GitHub/knowledge-hub/01-projects/wp-2026-02-reserve-adequacy/figures"
+outdir <- "C:/Users/Rendell CE/Documents/GitHub/wp-2026-02-reserve-adequacy/figures"
 
 # Risk-layering stack, bottom (frequent/low-severity) -> top (rare/high-severity)
 layers <- data.frame(
@@ -33,6 +33,8 @@ full$fill <- catcol[full$category]
 dc <- layers; dc$panel <- "Dutch Caribbean: what the Kingdom leaves open"
 dc$foreclosed <- dc$idx %in% c(3, 5)                 # contingent credit + cat bonds
 dc$fill <- ifelse(dc$foreclosed, beige, catcol[dc$category])
+dc$label[dc$idx == 2] <- "Reserves +\nSXM Disaster Reserve Fund"
+dc$label[dc$idx == 4] <- "CCRIF parametric\n(SXM holds; ABC not members)"
 dc$label[dc$idx == 6] <- "Residual falls to Kingdom\nemergency transfers\n(with conditionality)"
 
 blocks <- rbind(full, dc)
