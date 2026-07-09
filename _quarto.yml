@@ -39,10 +39,8 @@ format:
           \addtokomafont{section}{\color{ce-near-black}}
           \addtokomafont{subsection}{\color{ce-near-black}}
           \addtokomafont{subsubsection}{\color{ce-near-black}}
-          % Each top-level section starts on a fresh page. The redefinition leaves
-          % \section's \@ifstar handling intact, so \section*{References} still works.
-          \let\ceoldsection\section
-          \renewcommand{\section}{\clearpage\ceoldsection}
+          % Sections flow rather than each starting on a fresh page, to hold down
+          % the page count; KOMA's default heading spacing separates them.
           \usepackage{graphicx}
           \usepackage{changepage}
           \usepackage{fancyhdr}
@@ -66,7 +64,7 @@ format:
           % Header / footer style for body pages (cover page uses \pagestyle{empty})
           \fancypagestyle{cebody}{%
             \fancyhf{}%
-            \fancyhead[L]{\raisebox{-0.25\height}{\includegraphics[height=8mm]{assets/ce-logo.png}}\hspace{2mm}\small\color{ce-blue}\textbf{WP-2026-02} \color{ce-near-black}Expanding the risk financing toolkit}%
+            \fancyhead[L]{\raisebox{-0.25\height}{\includegraphics[height=8mm]{assets/ce-logo.png}}\hspace{2mm}\small\color{ce-blue}\textbf{WP-2026-02} \color{ce-near-black}The truncated toolkit}%
             \fancyhead[R]{\small\color{ce-near-black}\thepage}%
             \fancyfoot[C]{}%
             \renewcommand{\headrulewidth}{0.4pt}%
@@ -95,7 +93,7 @@ format:
             \vspace{1.3cm}\par
             \noindent{\color{ce-blue}\rule{\linewidth}{1.2pt}}\par
             \vspace{0.9cm}\par
-            \noindent{\fontsize{23pt}{27pt}\selectfont\bfseries\color{ce-near-black}Expanding the risk financing toolkit in the Dutch Caribbean}\par
+            \noindent{\fontsize{23pt}{27pt}\selectfont\bfseries\color{ce-near-black}The truncated toolkit: disaster risk finance and the limits of autonomy in the Dutch Caribbean}\par
             \vspace{0.6em}\par
             \noindent{\fontsize{15pt}{19pt}\selectfont\color{ce-blue}Sovereign and non-sovereign risk transfer under the Kingdom's financial-supervision architecture}\par
             \vspace{1.5cm}\par
@@ -103,7 +101,7 @@ format:
             {\color{ce-near-black}Cornerstone Economics \,$\cdot$\, University of Aruba \,$\cdot$\, Vrije Universiteit Amsterdam}\\[0.2em]
             {\small\color{ce-near-black}ORCID: \href{https://orcid.org/0009-0006-5402-0500}{0009-0006-5402-0500} \,$\cdot$\, \href{mailto:rendell@c-economics.com}{rendell@c-economics.com}}\par
             \vspace{0.7cm}\par
-            \noindent{\small\color{ce-near-black}\textbf{July 2026} \,$\cdot$\, Version 0.3.2 \,$\cdot$\, DOI: 10.5281/zenodo.21111149}\par
+            \noindent{\small\color{ce-near-black}\textbf{July 2026} \,$\cdot$\, Version 0.4.0 \,$\cdot$\, DOI: 10.5281/zenodo.21111149}\par
             \vspace{0.4em}\par
             \noindent{\small\color{ce-near-black}\textbf{JEL codes:} E58, F33, Q54, O54}\par
             \vspace{0.2em}\par
@@ -115,7 +113,7 @@ format:
             \vspace{0.2em}\par
             \noindent{\footnotesize\color{ce-near-black}Cornerstone Economics publishes empirical research on how small economies build, adapt, and sometimes get trapped by the institutions they inherit. Caribbean and small-state cases are treated as evidence for general claims rather than as local-interest footnotes. Working papers, reproducible data, open licenses.}\par
             \vspace{0.6em}\par
-            \noindent{\footnotesize\color{ce-near-black}\textbf{Suggested citation:} de Kort, R. (2026). \textit{Expanding the risk financing toolkit in the Dutch Caribbean}. Cornerstone Economics Working Paper WP-2026-02. \href{https://doi.org/10.5281/zenodo.21111149}{doi.org/10.5281/zenodo.21111149}}\par
+            \noindent{\footnotesize\color{ce-near-black}\textbf{Suggested citation:} de Kort, R. (2026). \textit{The truncated toolkit: disaster risk finance and the limits of autonomy in the Dutch Caribbean}. Cornerstone Economics Working Paper WP-2026-02. \href{https://doi.org/10.5281/zenodo.21111149}{doi.org/10.5281/zenodo.21111149}}\par
             \vspace{0.4em}\par
             \noindent{\footnotesize\color{ce-near-black}License: CC-BY 4.0 \,$\cdot$\, \href{https://papers.c-economics.com}{papers.c-economics.com} \,$\cdot$\, \href{https://github.com/cornerstone-economics/wp-2026-02-risk-financing-toolkit}{github.com/cornerstone-economics/wp-2026-02-risk-financing-toolkit}}\par
             \clearpage
@@ -143,13 +141,7 @@ format:
 
           \noindent{\large\bfseries\color{ce-blue}About this paper}\par
           \vspace{0.3em}
-          \noindent{\small\color{ce-near-black}\textit{Expanding the risk financing toolkit in the Dutch Caribbean: sovereign and non-sovereign risk transfer under the Kingdom's financial-supervision architecture} is the second working paper in the Cornerstone Economics Working Paper Series. It reads the disaster risk financing toolkit as a risk-layering stack, shows which layers the Kingdom's financial-supervision architecture forecloses for the Dutch Caribbean and which stay open, and draws out policy implications for the finance ministries, the central banks, and the Kingdom.\par}
-
-          \vspace{0.8cm}
-
-          \noindent{\large\bfseries\color{ce-blue}About Cornerstone Economics}\par
-          \vspace{0.3em}
-          \noindent{\small\color{ce-near-black}Working at the intersection of economic resilience, institutional design, and small-state development. The working paper series brings Caribbean-rooted empirical analysis to the literatures and policy conversations that shape what small places can do.\par}
+          \noindent{\small\color{ce-near-black}\textit{The truncated toolkit: disaster risk finance and the limits of autonomy in the Dutch Caribbean. Sovereign and non-sovereign risk transfer under the Kingdom's financial-supervision architecture} is the second working paper in the Cornerstone Economics Working Paper Series. It reads the disaster risk financing toolkit as a risk-layering stack, shows which layers the Kingdom's financial-supervision architecture forecloses for the Dutch Caribbean and which stay open, and draws out policy implications for the finance ministries, the central banks, and the Kingdom.\par}
 
           \vspace{0.8cm}
 
@@ -165,7 +157,7 @@ format:
           \noindent{\small\color{ce-near-black}Rendell de Kort \,$\cdot$\, Cornerstone Economics \,$\cdot$\, University of Aruba \,$\cdot$\, Vrije Universiteit Amsterdam\par}
           \noindent{\small\color{ce-near-black}ORCID: \href{https://orcid.org/0009-0006-5402-0500}{0009-0006-5402-0500} \,$\cdot$\, Email: \href{mailto:rendell@c-economics.com}{rendell@c-economics.com}\par}
 
-          \vfill
+          \vspace{0.9cm}
 
           {\color{ce-blue}\rule{\linewidth}{0.6pt}}
           \vspace{0.4em}
