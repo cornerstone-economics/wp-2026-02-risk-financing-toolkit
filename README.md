@@ -1,6 +1,6 @@
 # WP-2026-02. The truncated toolkit: disaster risk finance and the limits of autonomy in the Dutch Caribbean
 
-**Status:** working paper, v0.4.0 (July 2026).
+**Status:** working paper, v0.4.2 (July 2026).
 **Series:** Cornerstone Economics Working Papers, [papers.c-economics.com](https://papers.c-economics.com).
 **Identifier:** WP-2026-02.
 **License:** text CC-BY 4.0, code MIT.
